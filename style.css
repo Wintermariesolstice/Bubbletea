@@ -1,0 +1,82 @@
+h1 {
+  text-align: center;
+  color: slategrey;
+  font-family: fantasy;
+  font-size: 60px;
+}
+h2 {
+  text-align: center;
+  color: slategrey;
+  font-family: fantasy;
+  font-size: 40px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  padding: auto;
+  max-width: 100%;
+  border-radius: 40px;
+}
+
+p {
+  line-height: 2;
+  font-family: fantasy;
+}
+
+.list {
+  color: purple;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.learn-more {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: steelblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: tomato;
+  font-size: medium;
+  font-family: fantasy;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.footer {
+  text-align: center;
+}
+
+body {
+  font-family: fantasy;
+  background: white;
+  text-align: justify;
+}
+div {
+  text-align: justify;
+  padding: 60px 100px 60px 100px;
+  border-radius: 40px;
+  width: 65%;
+  margin: auto;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(240, 228, 122) 11.2%,
+    rgb(253, 145, 212) 54.5%,
+    rgb(176, 222, 234) 99.6%
+  );
+}
