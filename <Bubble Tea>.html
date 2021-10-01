@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bubble Tea</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<style>
+    h1 {
+        text-align: center;
+        color: slategrey;
+        font-family:fantasy;
+        font-size: 60px;
+    }
+    h2 {
+        text-align: center;
+        color: slategrey;
+        font-family:fantasy;
+        font-size: 40px;
+        
+    
+        
+    }
+    img {
+        display:block;
+        margin: 0 auto;
+        padding: auto;
+        max-width: 100%;
+        border-radius: 40px;
+
+    }
+
+    p {
+        line-height: 2;
+        font-family: fantasy;
+    }
+
+    .list {
+        color:purple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .learn-more {
+        display: block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: steelblue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .learn-more:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    button {
+        display: block;
+        margin: 20px auto;
+        background: tomato;
+        font-size: medium;
+        font-family: fantasy;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px;
+        transition: all 200ms ease-in-out;
+
+    }
+    button:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+
+    .footer {
+        text-align: center;
+        
+    }
+
+    body {
+
+        font-family: fantasy;
+        background:white;
+        text-align: justify;
+        
+    }
+ div {
+     text-align: justify;
+        padding: 60px 100px 60px 100px;
+        border-radius: 40px;
+        width: 65%;
+        margin:auto;
+        background-image: linear-gradient(109.6deg, rgb(240, 228, 122) 11.2%, rgb(253, 145, 212) 54.5%, rgb(176, 222, 234) 99.6%);
+ }
+
+</style>
+
+</head>
+<body>
+    <div>
+    <h1> 
+        Bubble Tea 
+    </h1>
+    <h2> The Origins ✿∘˚˳°∘°
+    </h2>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/048/original/bubble-milk-tea-1.jpg?1628688452" 
+    alt="Bubble Tea" />
+    <p> Invented in the 1980s, bubble tea (also called "black pearl tea" or "boba tea") is a beloved Taiwan classic. 
+        Though there are dozens of different variations, at its core it's a combination of tea, milk and the 'bubbles' -- which are essentially little balls made of anything from tapioca to fruit jelly.
+        
+        <hr/>
+         <br/>
+        <strong>7 Most Popular Bubble Tea Flavors</strong>
+        <br/>
+
+        <ul>
+
+<li> Black Milk Tea or Hong Kong Milk Tea.🌟 <br/>
+    <span class="list"> The black milk tea flavor or selection of boba is the all time classic and some may say the father of bubble tea or boba.</span> 
+</li>
+<li> Taro Milk Tea. 🍠 <br/>
+    <span class="list">The taro milk tea flavor selection is one of the best and if not <strong>THE BEST</strong> boba flavors out there. It’s creamy, delicious and refreshing. This flavor of boba is typically made with taro root powder mix made for smoothies and bubble tea.</span>
+</li>
+<li>Thai Milk Tea.🍹 <br/>
+    <span class="list">This sweet, creamy and orange milk tea otherwise known as iced Thai milk tea has a silky texture and delicious depth of flavor. Better than your traditional black milk tea.</span> </li>
+<li>Matcha Milk Tea. 🍵 <br/>
+    <span class="list">This vibrant earthy green looking boba drink is yet another all time classic.</span></li>
+<li>Honeydew Milk Tea. 🍈 <br/>
+    <span class="list">The slight sweetness from fresh honeydew and it’s unique melon flavor makes bubble tea such a delicious and refreshing beverage.</span></li>
+<li>Strawberry Milk Tea. 🍓 <br/>
+    <span class="list">What’s a selection of popular bubble teas without an all around favorite, strawberry milk tea. Simple, creamy and berry delicious!</span></li>
+        </ul>    
+
+<br/>
+
+<a href="https://en.wikipedia.org/wiki/Bubble_tea" target="_blank" class="learn-more"> Learn more on Wikipedia</a>
+<br/>
+
+For more upcoming new Boba flavours join our Boba Club Newsletter &#128151;
+</p>
+<button class="newsletter-button">
+Join our newsletter
+</button>
+<br/>
+<p class="footer">
+<em>This page was built by Nora Yusop ✿∘˚˳°∘°</em>
+</p>
+<script>
+    function newsletter(){
+    let name = prompt("What is your first name?");
+    let age = prompt ("What is your age?");
+    
+
+        if (age < 18) {
+          alert ("Hi, " + name + "! Sorry your are too young to join our newsletter.😔");
+        } else {
+          let email = prompt("What is your email address?");
+          alert ("Hi, " + name + "! You have been added to our newsletter. Have a boba day!💖");
+        }}
+    
+let newsletterButton = document.querySelector(".newsletter-button");
+newsletterButton.addEventListener("click", newsletter);
+</script>
+</div>
+</body>
+</html>
